@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "label": "npm: dev (Server + Client)",
+      "detail": "Starts backend Express server and frontend Vite React client concurrently",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "server",
+      "problemMatcher": [],
+      "label": "npm: server",
+      "detail": "Starts backend Express server with nodemon"
+    },
+    {
+      "type": "npm",
+      "script": "client",
+      "problemMatcher": [],
+      "label": "npm: client",
+      "detail": "Starts frontend Vite React client"
+    },
+    {
+      "type": "npm",
+      "script": "install-all",
+      "problemMatcher": [],
+      "label": "npm: install-all",
+      "detail": "Installs dependencies for both server and client folders"
+    }
+  ]
+}
