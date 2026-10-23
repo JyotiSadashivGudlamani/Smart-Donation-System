@@ -6,3 +6,8 @@ build/
 coverage/
 *.log
 .gemini/
+
+.vscode/
+**/node_modules/
+**/.env
+
